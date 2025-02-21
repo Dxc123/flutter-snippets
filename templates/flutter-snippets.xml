@@ -1,0 +1,32 @@
+<templateSet group="flutter-snippets">
+  <template name="text" value="Text('111',&#10;    style: const TextStyle(&#10;    color: Colors.white,&#10;    fontSize: 16,&#10;    fontWeight: FontWeight.normal,&#10;    ),&#10;    )," description="Create Text Widget" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="image" value="Image.asset(&#10;&quot;assets/images/app/hc_me_id_copy.webp&quot;,&#10;fit: BoxFit.cover,&#10;)," description="Create Image Widget" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="customScrollView" value=" CustomScrollView(&#10;    slivers: [&#10;      SliverToBoxAdapter(&#10;        child: Container(),&#10;      ),&#10;      SliverPadding(&#10;        padding: const EdgeInsetsDirectional.symmetric(horizontal: 22),&#10;        sliver: SliverList(&#10;            delegate: SliverChildBuilderDelegate(&#10;                  (context, index) {&#10;                return Container();&#10;              },&#10;              childCount: 5&#10;            )),&#10;      ),&#10;      SliverPadding(&#10;        padding: const EdgeInsetsDirectional.symmetric(horizontal: 12, vertical: 5),&#10;        sliver: SliverGrid(&#10;          delegate: SliverChildBuilderDelegate(&#10;                (context, index) {&#10;                  return Container();&#10;            },&#10;            childCount: 5,&#10;          ),&#10;          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(&#10;            crossAxisCount: 2,&#10;            mainAxisSpacing: 10,&#10;            crossAxisSpacing: 10,&#10;            childAspectRatio: 1.0,&#10;          ),&#10;        ),&#10;      ),&#10;      SliverToBoxAdapter(&#10;        child: SizedBox(height: Get.bottomBarHeight + 60),&#10;      ),&#10;    ],&#10;  )," description="Create CustomScrollView Widget" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sliverList" value="SliverPadding(&#10;    padding: const EdgeInsetsDirectional.symmetric(horizontal: 22),&#10;    sliver: SliverList(&#10;        delegate: SliverChildBuilderDelegate(&#10;              (context, index) {&#10;            return Container();&#10;          },&#10;          childCount: 5&#10;        )),&#10;  )," description="Create SliverList Widget" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sliverGrid" value=" SliverPadding(&#10;    padding: const EdgeInsetsDirectional.symmetric(horizontal: 12, vertical: 5),&#10;    sliver: SliverGrid(&#10;      delegate: SliverChildBuilderDelegate(&#10;            (context, index) {&#10;              return Container();&#10;        },&#10;        childCount: 5,&#10;      ),&#10;      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(&#10;        crossAxisCount: 2,&#10;        mainAxisSpacing: 10,&#10;        crossAxisSpacing: 10,&#10;        childAspectRatio: 1.0,&#10;      ),&#10;    ),&#10;    )," description="Create SliverGrid Widget" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="stack" value="Stack(&#10;  children: [&#10;    Container(),&#10;    PositionedDirectional(&#10;      end: 0,&#10;      top: 0,&#10;      bottom: 0,&#10;      child: Container(),&#10;    ),&#10;  ],&#10;)," description="Create Stack Widget" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
