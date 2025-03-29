@@ -1,4 +1,5 @@
 # flutter-snippets
+
 android stuido   flutter-snippets
 
 在 macOS 系统中，Android Studio 的自定义的 Live Templates 配置文件通常存储在以下路径中：
@@ -13,3 +14,7 @@ Mac Android Studio2023.3 存放自定义的Live Templates(如果你自定义过)
 ```
 ~/Library/Preferences/AndroidStudio2023.3/templates
 ```
+
+
+
+createinstance   创建单例
